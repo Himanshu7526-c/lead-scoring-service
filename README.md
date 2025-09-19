@@ -32,7 +32,7 @@ This backend service provides a set of APIs to upload product/offer information 
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/Himanshu7526-c/lead-scoring-service.git
     cd your-repo-name
     ```
 
