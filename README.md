@@ -3,7 +3,7 @@
 
 This backend service provides a set of APIs to upload product/offer information and a list of leads, then uses a combination of rule-based logic and AI-powered analysis (via Google Gemini) to score each lead's buying intent.
 
-**Live API Base URL**: `https://lead-scoring-service-41vi.onrender.com` 
+**Live API Base URL**: https://lead-scoring-service-41vi.onrender.com
 
 ---
 
