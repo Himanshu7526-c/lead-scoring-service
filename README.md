@@ -64,7 +64,7 @@ This backend service provides a set of APIs to upload product/offer information 
 
 ### 1. Set Product Offer
 ```bash
-curl -X POST https://your-app-name.onrender.com/api/offer -H "Content-Type: application/json" -d '{
+curl -X POST https://lead-scoring-service-41vi.onrender.com/api/offer -H "Content-Type: application/json" -d '{
   "name": "AI Outreach Automation Pro",
   "value_props": ["Automates cold outreach 24/7", "Generates 6x more qualified meetings"],
   "ideal_use_cases": ["B2B SaaS companies", "Sales teams"]
@@ -73,22 +73,22 @@ curl -X POST https://your-app-name.onrender.com/api/offer -H "Content-Type: appl
 
 ### 2. Upload Leads CSV
 ```bash
-curl -X POST https://your-app-name.onrender.com/api/leads/upload -F "leads_file=@/path/to/your/leads.csv"
+curl -X POST https://lead-scoring-service-41vi.onrender.com/api/leads/upload -F "leads_file=@/path/to/your/leads.csv"
 ```
 
 ### 3. Score the Leads
 ```bash
-curl -X POST https://your-app-name.onrender.com/api/leads/score
+curl -X POST https://lead-scoring-service-41vi.onrender.com/api/leads/score
 ```
 
 ### 4. Get Scored Results (JSON)
 ```bash
-curl -X GET https://your-app-name.onrender.com/api/leads/results
+curl -X GET https://lead-scoring-service-41vi.onrender.com/api/leads/results
 ```
 
 ### 5. Export Results to CSV
 ```bash
-curl -X GET https://your-app-name.onrender.com/api/results/export -o scored_leads.csv
+curl -X GET https://lead-scoring-service-41vi.onrender.com/api/results/export -o scored_leads.csv
 ```
 
 ---
@@ -98,7 +98,7 @@ curl -X GET https://your-app-name.onrender.com/api/results/export -o scored_lead
 You can also test the APIs easily using **Postman**.  
 
 ### **Initial Setup**
-1. In Postman, create a collection variable named `{{baseUrl}}` and set its value to your local server (e.g., `http://localhost:3000`) or your live Render URL.
+1. In Postman, create a collection variable named `{{baseUrl}}` and set its value to your local server (e.g., `http://localhost:3000`) or your live Render URL (e.g., https://lead-scoring-service-41vi.onrender.com ).
 2. Follow the requests in order.
 
 ### **1. Set Product Offer**
